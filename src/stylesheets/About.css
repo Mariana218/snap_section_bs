@@ -1,15 +1,10 @@
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .row{
     background-color: #e5eff5;
 }
 
 .div1{
     background-color: #2ab2af;
+
 }
 .div2{
     background-color: #4bbebc;

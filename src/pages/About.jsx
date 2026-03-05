@@ -7,7 +7,7 @@ export const About = () => {
     <Header/>
     
     <section className="container">
-        <div className="row p-5">
+        <div className="row color p-5">
             <div className="col-12 w-100 d-flex justify-content-center flex-column bg-light p-5">
                     <h1>Join our community</h1>
                     <h2>30-day, hassle-free money back guarantee</h2>

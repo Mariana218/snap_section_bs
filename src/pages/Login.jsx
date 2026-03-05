@@ -6,8 +6,11 @@ export const Login = () => {
     <Header/>
 
     <div className="container">
-        <div className="row">
+        <div className="row">            
             <div className="col p-5 w-50 d-flex justify-content-center">
+                <div className="mt-5">
+                    <h1 className="text-center fs-1 text-dark fw-bold">Snap</h1>
+                    <img className="rounded-circle" src="./public/images.png" alt="" /></div>
                 <form className="p-5 d-flex flex-column">
             <div className="mb-3">
                 <label for="exampleInputEmail1" className="form-label">Email address</label>

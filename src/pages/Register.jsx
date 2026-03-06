@@ -3,7 +3,6 @@ import { Header } from "../components/Header"
 export const Register = () => {
   return (
     <>
-    <Header/>
     
     <div className="container">
         <div className="row">            

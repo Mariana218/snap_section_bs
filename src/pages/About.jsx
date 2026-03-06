@@ -4,7 +4,6 @@ import "../stylesheets/About.css"
 export const About = () => {
   return (
     <>
-    <Header/>
     
     <section className="container">
         <div className="row color p-5">

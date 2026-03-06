@@ -5,8 +5,6 @@ export const Careers = () => {
   return (
     <>
 
-    <Header/>
-
     <div className="container">
         <div className="row">
             <div className="col">

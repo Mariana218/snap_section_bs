@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom"
 
 export const Header = () => {
   return (
     <>
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container">
-    <a className="navbar-brand" href="#">snap</a>
+    <Link className="navbar-brand" to='/'>Snap</Link>
+
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -34,10 +36,10 @@ export const Header = () => {
           </ul>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Careers</a>
+          <Link className="nav-link" to='/Careers'>Careers</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">About</a>
+          <Link className="nav-link" to='/About'>About</Link>
         </li>
       </ul>
       
@@ -45,8 +47,9 @@ export const Header = () => {
       
       <form className="d-flex" role="search">
         <div>
-            <button type="button" class="btn">Login</button>
-            <button type="button" className="btn btn-outline-secondary">Register</button>
+            <Link className="btn" to ='/login'>Login</Link>
+
+            <Link className="btn btn-outline-secondary" to='/Register'>Register</Link>
         </div>
       </form>
     </div>
